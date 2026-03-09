@@ -1,0 +1,8 @@
+"# Model 3: Add region (tests H2 - is Southern Europe different?)"
+"model3 <- lm(share_with_parents ~ afford_ratio + unemployment + region,"
+"+              data = panel_data)"
+"summary(model3)"
+""
+"lm(formula = share_with_parents ~ afford_ratio + unemployment +"
+"region, data = panel_data)"
+""
